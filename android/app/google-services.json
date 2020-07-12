@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390544939240",
+    "firebase_url": "https://fir-auth-7ff1c.firebaseio.com",
+    "project_id": "fir-auth-7ff1c",
+    "storage_bucket": "fir-auth-7ff1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390544939240:android:175489b18e0991e667915d",
+        "android_client_info": {
+          "package_name": "com.addtekminesweeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390544939240-8lvkdeq665kl242tjr5bjvrqfqi13k9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl3dsrp2nG5GQdbw1UdhNni5t637SXnuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390544939240-8lvkdeq665kl242tjr5bjvrqfqi13k9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
