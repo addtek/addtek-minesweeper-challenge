@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import {
   View,
   AppState,
-
   StyleSheet,
   ViewPropTypes as RNViewPropTypes,
 } from "react-native";
