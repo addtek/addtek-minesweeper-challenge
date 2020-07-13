@@ -37,6 +37,10 @@ export default class Cell extends Component {
   render() {
     if (this.props.state.closed) {
       return this.props.state.flagged ? (
+        <TouchableOpacity
+        onLongPress={() => this.props.onLongPress(this.props.state.id)}
+        rejectResponderTermination
+      >
         <View
           style={[
             styles.cell,
@@ -50,6 +54,7 @@ export default class Cell extends Component {
         >
           <Icon source={flag} externalSource={true} />
         </View>
+        </TouchableOpacity>
       ) : (
         <TouchableOpacity
           onPress={this.onReveal}
